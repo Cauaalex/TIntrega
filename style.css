@@ -56,12 +56,12 @@ nav ul{
 }
 
 nav a{
-    color:white;
+    color: #000c38;
     transition:.3s;
 }
 
 nav a:hover{
-    color:#4f9cf9;
+    color:#001b7a;
 }
 
 /* HERO */
@@ -98,35 +98,46 @@ p{
 .botoes{
     display:flex;
     gap:15px;
+    /*width: 10rem;
+    height: 4px;
+    flex-wrap: nowrap; */
+
 }
 
 .btn{
-    background:#167BF7;
+    display: inline-flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;  /* Centraliza na vertical */
+    background: linear-gradient(to right,#000c38, #011768);
     color:white;
 
-    padding:15px 35px;
-    border-radius:8px;
+    padding: 12px 22px;
+    font-size: 17px;
+    border-radius: 10px;
 
-    transition:.3s;
+    transition:.6s;
 }
 
 .btn:hover{
-    background:#2b8dff;
+     background: linear-gradient(to right,#000e3f, #002092);
 }
 
 .btn-secundario{
-    border:2px solid white;
-    color:white;
+    display: inline-flex;
+    justify-content: center; /* Centraliza na horizontal */
+    align-items: center;  /* Centraliza na vertical */
+    border:2px solid #000e3f;
+    color: #000c38;
+    padding: 12px 22px;
+    font-size: 17px;
+    border-radius: 10px;
 
-    padding:15px 35px;
-    border-radius:8px;
-
-    transition:.3s;
+    transition:.6s;
 }
 
 .btn-secundario:hover{
-    background:white;
-    color:black;
+    background: #001b7a;
+    color: white;
 }
 
 /* SEÇÕES */
@@ -148,41 +159,43 @@ p{
 }
 
 .card{
-    background: linear-gradient(
-        to right,
-        #001b7a,
-        #008cff);
-    padding: 30px;
+    background: white;
+    border: 3px solid transparent;
     border-radius: 20px;
 
-    width: 500px;
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #001b7a, #008cff);
 
-    box-shadow: 0 15px 10px rgba(0,0,0,.25);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    padding: 30px;
 }
 .conteudo h2{
+    color: #000c38;
     font-size:2.2rem;
     margin-bottom:20px;
 }
 
 .conteudo p{
-    color:#ffffff;
+    color:#000c38;
     line-height:1.7;
 }
 
 .card2{
-    background: linear-gradient(
-        to right,
-        #000c38,
-        #008cff
-    );
-    color: rgb(255, 255, 255);
-
-    padding: 30px;
+    background: white;
+    border: 3px solid transparent;
     border-radius: 20px;
 
-    width: 500px;
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #001b7a, #008cff);
 
-    box-shadow: 0 15px 10px rgba(0,0,0,.25);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    padding: 30px;
 }
 
     
@@ -197,6 +210,7 @@ p{
 /* FOOTER */
 
 footer{
+    
     text-align:center;
     padding:50px 20px;
     border-top:1px solid #242424;
