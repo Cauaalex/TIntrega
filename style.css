@@ -20,7 +20,7 @@ h1 {
 
 .ti {
     color: transparent;              /* Interior transparente */
-    -webkit-text-stroke: 3px #000e3f;  /* Apenas a borda branca */
+    -webkit-text-stroke: 3px #000e3f;  /* Apenas a borda azul */
 }
 .entrega {
     background: linear-gradient(to right, #000e3f, #001b7a, #002092);
@@ -85,16 +85,6 @@ nav a:hover{
     padding:80px 8%;
 }
 
-.card{
-    background: white;
-    color: black;
-
-    padding: 30px;
-    border-radius: 20px;
-
-    width: 500px;
-}
-
 .texto{
     max-width:500px;
 }
@@ -146,7 +136,7 @@ p{
     display:flex;
     justify-content:space-between;
     align-items:center;
-
+    flex-direction: row-reverse;
     gap:80px;
 
     padding:100px 8%;
@@ -161,10 +151,7 @@ p{
     background: linear-gradient(
         to right,
         #001b7a,
-        #008cff
-    );
-    color: rgb(255, 255, 255);
-
+        #008cff);
     padding: 30px;
     border-radius: 20px;
 
@@ -200,7 +187,7 @@ p{
 
     
 .reverso{
-    flex-direction:row-reverse;
+    flex-direction:row;
 }
 
 .imagem-conteudo2{
