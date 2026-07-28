@@ -11,6 +11,12 @@ body{
     background:#050714;
     color:white;
 }
+
+.logo{
+    color: #000c38;
+    
+}
+
 h1 {
     font-family: "League Spartan", sans-serif;
     font-size: 6rem;
@@ -52,11 +58,6 @@ header {
 
 header.scrolled {
     padding: 12px 0;
-    background: linear-gradient(
-        to right,
-        #fafafa,
-        #c5c5c5,
-        #80c3fa);
     backdrop-filter: blur(10px);
     box-shadow: 0 5px 20px rgba(0,0,0,.15);
 }
@@ -91,8 +92,8 @@ nav a:hover{
     background: linear-gradient(
         to right,
         #fafafa,
-        #c5c5c5,
-        #80c3fa
+        #d0dbe4,
+        #a7d4f8
     );
 }
 
@@ -100,8 +101,8 @@ nav a:hover{
     background: linear-gradient(
         to right,
         #fafafa,
-        #c5c5c5,
-        #80c3fa
+        #d0dbe4,
+        #a7d4f8
     );;
     display:flex;
     justify-content:space-between;
