@@ -40,14 +40,35 @@ ul{
     list-style:none;
 }
 
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0;
+    transition: all .3s ease;
+    z-index: 1000;
+}
+
+header.scrolled {
+    padding: 12px 0;
+    background: linear-gradient(
+        to right,
+        #fafafa,
+        #c5c5c5,
+        #80c3fa);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
 /* NAV */
 
 nav{
-    display:flex;
-    justify-content:space-between;
+    display: flex;
+    justify-content: space-between;
     align-items:center;
 
-    padding:25px 8%;
+    padding:10px 8%;
 }
 
 nav ul{
@@ -76,6 +97,12 @@ nav a:hover{
 }
 
 .hero-conteudo{
+    background: linear-gradient(
+        to right,
+        #fafafa,
+        #c5c5c5,
+        #80c3fa
+    );;
     display:flex;
     justify-content:space-between;
     align-items:center;
