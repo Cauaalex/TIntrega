@@ -107,7 +107,7 @@ nav a:hover{
     );;
     display:flex;
     min-height: 95vh;
-    justify-content:flex-start;
+    justify-content:space-between;
     gap:60px;
     padding:80px 8%;
 }
@@ -244,6 +244,29 @@ p{
 
 .imagem-conteudo2{
     width: 400px;
+}
+
+.quem{
+    background: white;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    padding: 100px 8%;
+    gap: 80px;
+}
+
+.card3{
+    background: white;
+    font-size: 1.35rem;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    width: 500px;
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #001b7a, #008cff);
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    padding: 30px;  
 }
 
 /* FOOTER */
