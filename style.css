@@ -138,8 +138,8 @@ p{
     background: linear-gradient(to right,#000c38, #011768);
     color:white;
 
-    padding: 22px 32px;
-    font-size: 1.4rem;
+    padding: 15px 32px;
+    font-size: 1.3rem;
     border-radius: 10px;
 
     transition:.6s;
@@ -155,8 +155,8 @@ p{
     align-items: center;  /* Centraliza na vertical */
     border:2px solid #000e3f;
     color: #000c38;
-    padding: 12px 22px;
-    font-size: 1.4rem;
+    padding: 15px 32px;
+    font-size: 1.3rem;
     border-radius: 10px;
 
     transition:.6s;
@@ -185,6 +185,11 @@ p{
     
 }
 
+.frase{
+    font-size: 1.65rem;
+    color: #000c38;
+}
+
 .descricao{
     font-size: 1.5rem;
     width: 115%;
@@ -192,6 +197,7 @@ p{
 
 .card{
     background: white;
+    font-size: 1.35rem;
     border: 3px solid transparent;
     border-radius: 20px;
 
@@ -217,6 +223,7 @@ p{
 
 .card2{
     background: white;
+    font-size: 1.35rem;
     border: 3px solid transparent;
     border-radius: 20px;
 
