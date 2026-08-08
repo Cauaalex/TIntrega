@@ -8,6 +8,7 @@
 
 body{
     font-family: "League Spartan",sans-serif;
+
     color:white;
 }
 
@@ -254,6 +255,7 @@ footer{
     text-align:center;
     padding:30px 20px;
     border-top:1px solid #242424;
+    background-color: #000c38
 }
 
 footer p{
