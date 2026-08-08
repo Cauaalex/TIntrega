@@ -8,13 +8,11 @@
 
 body{
     font-family: "League Spartan",sans-serif;
-    background:#050714;
     color:white;
 }
 
 .logo{
-    color: #000c38;
-    font-size: 2rem;
+    width: 2rem;
     
 }
 
@@ -91,14 +89,7 @@ nav a:hover{
 
 /* HERO */
 
-.hero{
-    background: linear-gradient(
-        to right,
-        #fafafa,
-        #d0dbe4,
-        #a7d4f8
-    );
-}
+
 
 .hero-conteudo{
     background:
