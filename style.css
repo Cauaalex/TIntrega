@@ -59,10 +59,21 @@ header {
     z-index: 1000;
 }
 
-header.scrolled {
+header.scrolled, header.white-section {
     padding: 12px 0;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.15);
     box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
+header.scrolled nav a {
+    color: white;
+}
+
+/* Quando chegar novamente no fundo branco */
+header.white-section nav a {
+    color: #000c38;
 }
 
 /* NAV */
@@ -71,7 +82,8 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items:center;
-    padding:10px 8%;
+    padding: 15px 8%;
+    height: 15px;
 }
 
 nav ul{
@@ -81,16 +93,12 @@ nav ul{
 
 nav a{
     color: #000c38;
-    transition:.3s;
+    transition: color .3s ease;
 }
 
 nav a:hover{
     color:#001b7a;
 }
-
-/* HERO */
-
-
 
 .hero-conteudo{
     background:
