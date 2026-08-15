@@ -179,22 +179,6 @@ p{
 
 /* SEÇÕES */
 
-.conteudo{
-    background: white;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-direction: row;
-    gap:80px;
-
-    padding:100px 8%;
-}
-
-.conteudo div{
-    max-width:500px;
-    
-}
-
 .frase{
     font-size: 1.65rem;
     color: #000c38;
@@ -205,7 +189,29 @@ p{
     width: 115%;
 }
 
-.card{
+.conteudo1{
+    background: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    gap:80px;
+
+    padding:100px 8%;
+}
+
+.imagem_conteudo1{
+    width: 500px;
+    border-radius: 20px;
+}
+
+.conteudo1 div{
+    max-width:500px;
+    
+}
+
+
+.card1{
     background: white;
     font-size: 1.35rem;
     border: 3px solid transparent;
@@ -214,22 +220,45 @@ p{
     background-image:
         linear-gradient(white, white),
         linear-gradient(to right, #001b7a, #008cff);
-
+        
     background-origin: border-box;
     background-clip: padding-box, border-box;
 
     padding: 30px;
 }
-.conteudo h2{
+.titulo1{
     color: #000c38;
     font-size:2.2rem;
     margin-bottom:20px;
 }
 
-.conteudo p{
+.p1{
     color:#000c38;
     line-height:1.7;
 }
+
+.conteudo2{
+    background: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row-reverse;
+    gap:80px;
+
+    padding:100px 8%;
+}
+
+.imagem_conteudo2{
+    flex-direction: row-reverse;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.conteudo2 div{
+    max-width:500px;
+    
+}
+
 
 .card2{
     background: white;
@@ -247,14 +276,65 @@ p{
     padding: 30px;
 }
 
-.reverso{
-    flex-direction:row;
+.titulo2{
+    color: #000c38;
+    font-size:2.2rem;
+    margin-bottom:20px;
 }
 
-.imagem-conteudo2{
+.p2{
+    color:#000c38;
+    line-height:1.7;
+}
+
+.conteudo3{
+    background: white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction: row;
+    gap:80px;
+
+    padding:100px 8%;
+}
+
+.conteudo3 div{
+    max-width:500px;
+    
+}
+
+.imagem_conteudo3{
     width: 500px;
     border-radius: 20px;
 }
+
+.card3{
+    background: white;
+    font-size: 1.35rem;
+    border: 3px solid transparent;
+    border-radius: 20px;
+
+    background-image:
+        linear-gradient(white, white),
+        linear-gradient(to right, #001b7a, #008cff);
+
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+
+    padding: 30px;
+}
+
+.titulo3{
+    color: #000c38;
+    font-size:2.2rem;
+    margin-bottom:20px;
+}
+
+.p3{
+    color:#000c38;
+    line-height:1.7;
+}
+
 
 /* FOOTER */
 
